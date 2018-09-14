@@ -3,6 +3,8 @@ import App from './App.vue'
 
 Vue.config.productionTip = false
 
+import ('@/assets/scss/_reset.scss')
+
 new Vue({
   render: h => h(App)
 }).$mount('#app')
