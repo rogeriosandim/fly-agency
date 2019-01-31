@@ -4,17 +4,23 @@
     <Home/>
     <img alt="Vue logo" src="./assets/imgs/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <div>
-      <Footer/>
-    </div>
+    <Contact/>
+    <Footer/>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+import BootstrapVue from 'bootstrap-vue'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Header from './pages/Header.vue'
 import Home from './pages/Home.vue'
 import HelloWorld from './pages/HelloWorld.vue'
+import Contact from './pages/Contact.vue'
 import Footer from './pages/Footer.vue'
+
+Vue.use(BootstrapVue);
 
 export default {
   name: 'app',
@@ -22,6 +28,7 @@ export default {
     Header,
     Home,
     HelloWorld,
+    Contact,
     Footer
   },
 }
