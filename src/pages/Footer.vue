@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-     © 2018 - All rights reserved. Site designed by <a href="https://github.com/rogeriosandim" >Fly - Agência Digital</a>
+     © 2018 - All rights reserved. Site designed by <a href="https://github.com/rogeriosandim" ><i class="fab fa-github"></i> Fly - Agência Digital</a>
   </footer>
 </template>
 
@@ -15,13 +15,12 @@ export default {
 </script>
 
 <style lang="scss">
-$footer-padding: 2px;
 
 .footer {
   text-align: center;
   margin-top: 20px;
   width: 100%;
-  padding: $footer-padding;
+  padding: 2px;
   background-color: black;
   color: white;
 }
